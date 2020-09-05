@@ -9,7 +9,19 @@
       Title="Admin">
 
     <Grid Background="#FFFAFF8E">
-        <Label Content="Label" HorizontalAlignment="Left" Margin="180,102,0,0" VerticalAlignment="Top"/>
+        <Label Content="Se le da la bienvenida al Admin" HorizontalAlignment="Center" Margin="0,52,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label Content="Espero que tenga un muy buen día  " HorizontalAlignment="Left" Height="247" Margin="232,149,0,0" VerticalAlignment="Top" Width="344" FontSize="20" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.171"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-1.244"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="y pueda hacer su trabajo como admin de la mejor manera." HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Width="528" Margin="0,188,0,0"/>
+        <Image HorizontalAlignment="Center" Height="168" Margin="0,252,0,0" VerticalAlignment="Top" Width="171" Source="/f8d1198c8b0dd7c3ef5af898a2257967.jpg"/>
 
     </Grid>
 </Page>

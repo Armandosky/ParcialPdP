@@ -5,10 +5,20 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ParcialPdP"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="350" d:DesignWidth="790"
       Title="NotAdmin">
 
     <Grid Background="#FF77B8F9">
-        
+        <Label Content="EMPLEADO" HorizontalAlignment="Center" Height="61" Margin="0,10,0,0" VerticalAlignment="Top" Width="214" FontSize="36" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="228,99,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" Width="120" Background="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="228,153,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Width="120" Background="White"/>
+        <ComboBox HorizontalAlignment="Left" Margin="228,223,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Cédula del Cliente" HorizontalAlignment="Left" Margin="38,153,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Tipo de Pan" HorizontalAlignment="Left" Margin="38,217,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Nombre del Cliente" HorizontalAlignment="Left" Margin="38,90,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <ListBox HorizontalAlignment="Left" Height="239" Margin="547,74,0,0" VerticalAlignment="Top" Width="220"/>
+        <Label Content="Cantidad" HorizontalAlignment="Left" Margin="38,271,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="31" Margin="228,271,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="White"/>
+
     </Grid>
 </Page>
